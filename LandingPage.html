@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FPT dating</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="Favicon" href="favicon.ico"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" inteity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.cssgr" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -16,7 +18,7 @@
           <a class="navbar-brand" href="#">
             <img src="data:image/jpeg;base64,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" alt="" width="30" height="24">
           </a>
-          <a class="navbar-brand col-6 text-danger" href="#">FPT DATING</a>
+          <a class="navbar-brand col-6 text-warning " href="#">FPT DATING</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,15 +32,15 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner width=100% height=100%">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://healthyframework.com/wp-content/uploads/2022/03/Tinder-Mobile.jpg" class="d-block w-100 h-80" alt="...">
+            <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.6435-9/187417275_5889969351014918_8181008667984703556_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Rp_Y_bhNG4sAX9AN_32&_nc_ht=scontent.fhan2-5.fna&oh=00_AfClSHQP2RIaVi9zIXkq3cdzXXrBWEybY6fF632Pu2M5Dw&oe=63CFD31D" class="d-block w-100 h-80" alt="..." width="100%">
           </div>
           <div class="carousel-item">
-            <img src="https://c.files.bbci.co.uk/7906/production/_110628903_newtinder.jpg" class="d-block w-100 h-80" alt="...">
+            <img src="https://i.chungta.vn/2021/11/22/fd1-1637549547-1637549562.jpg" class="d-block w-100 h-80" alt="..."  width="100%" >
           </div>
           <div class="carousel-item">
-            <img src="https://sm.mashable.com/mashable_sea/photo/default/tinder-school-of-swipe-header_2nye.png" class="d-block h-80 w-100" alt="...">
+            <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/203860941_3607714222664437_1737486299032755615_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=CfgHS6jyGWUAX_vfhtd&_nc_ht=scontent.fhan2-4.fna&oh=00_AfDen2-KnN0IRjY3WDJ-VdbX9RXaEYfu2FQRRebj3i9o7Q&oe=63CFD481" class="d-block h-80 w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -49,7 +51,15 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+        <main>
+          <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 fw-normal">Đăng Ký Tài Khoản Thành Viên</h1>
+              <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+          </div>
           <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
@@ -59,38 +69,39 @@
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                  
+          
                     <li>Email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-outline-primary ">Sign up for free</button>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal text-warning">Gold</h4>
+                  <h4 class="my-0 fw-normal">Pro</h4>
                 </div>
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                  
+                   
                     <li>Priority email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-warning">Get started</button>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm border-primary">
                 <div class="card-header py-3 text-white bg-primary border-primary">
-                  <h4 class="my-0 fw-normal">PREMIUM</h4>
+                  <h4 class="my-0 fw-normal">Enterprise</h4>
                 </div>
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
                   <ul class="list-unstyled mt-3 mb-4">
+                    
                     <li>Phone and email support</li>
                     <li>Help center access</li>
                   </ul>
@@ -99,6 +110,63 @@
               </div>
             </div>
           </div>
+          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+              <div class="my-3 py-3">
+                <h2 class="display-5">Nhắn tin với bạn bè</h2>
+                
+              </div>
+              <div class="bg-light shadow-sm mx-auto"  style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+              <img src="imgMess.png" style=" border-radius: 21px 21px 0 0;"/></div>
+            </div>
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class="my-3 p-3">
+                <h2 class="display-5">Kết nối sự yêu thương</h2>
+              </div>
+              <div class="bg-dark shadow-sm mx-auto" style="width: 280px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img width="100%" src="mess2.png" style=" border-radius: 21px 21px 0 0;"/></div>
+            </div>
+          </div>
+        
+          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class="my-3 p-3">
+                <h2 class="display-5">Các bạn hợp với nhau</h2>
+                
+              </div>
+              <div class="bg-dark shadow-sm mx-auto" style="width:280px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img width="100%" height="" src="heart1.png" style=" border-radius: 21px 21px 0 0;"/></div>
+            </div>
+            <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="width: 600px;">
+              <div class="my-3 py-3">
+                <h2 class="display-5">Các bạn có nhiều điểm chung</h2>
+                
+              </div>
+              <div class="bg-light shadow-sm mx-auto" style="width: 280px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img width="100%" height="" src="heart2.png" style=" border-radius: 21px 21px 0 0;"/></div>
+            </div>
+          </div>
+
+        
+          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class="my-3 p-3">
+                <h2 class="display-5">Sở Thích Của Bạn</h2>
+                
+              </div>
+              <div class="bg-body shadow-sm mx-auto" style="width: 280px; height: 300px; border-radius: 21px 21px 0 0;">
+                <img width="100%" height="" src="footer1.png" style=" border-radius: 21px 21px 0 0;"/>
+              </div>
+            </div>
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class="my-3 py-3">
+                <h2 class="display-5">Chuyên Ngành Của Bạn</h2>
+              </div>
+              <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img width="100%" height="" src="footer2.png" style=" border-radius: 21px 21px 0 0;"/></div>
+            </div>
+          </div>
+        </main>
           <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">
               <div class="col-12 col-md">
@@ -108,7 +176,7 @@
               <div class="col-6 col-md">
                 <h5 class="text-danger" >About</h5>
                 <ul class="list-unstyled text-small">
-                  <li class="mb-1"><a href ="main.html" class="link-secondary text-decoration-none" href="#">Team</a></li>
+                  <li class="mb-1"><a href ="main.html" class="link-secondary text-decoration-none">Team</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
                   <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
